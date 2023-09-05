@@ -1,0 +1,29 @@
+@import url('http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import '../node_modules/angular-notifier/styles.css';
+
+body{
+    background: #edf1f5;
+    margin-top:20px;
+
+}
+
+.custom-right-align {
+    text-align: right !important;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /* This will align items vertically in the center */
+    justify-content: flex-end;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center; /* This will align items (icon and text) vertically in the center within the anchor */
+}
+
+.material-icons {
+    margin-right: 8px; /* Or adjust as needed for space between icon and text */
+}
+
